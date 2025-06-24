@@ -1,0 +1,100 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Angasana New;
+  background: #f4f4f4;
+}
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+  background: #ffffff;
+}
+
+header {
+  position: relative;
+  background: url('https://tse2.mm.bing.net/th?id=OIP.kf9TvsuxepBOhAV4cTHEoAHaHa&pid=Api&P=0&h=180') no-repeat center center/cover;
+  height: 350px;
+  text-align: center;
+  color: white;
+  padding-top: 100px;
+}
+
+.profile-pic {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  position: absolute;
+  top: 30px;
+  left: 50%;
+  transform: translateX(-50%);
+  border: 5px solid white;
+}
+header h1 {
+  font-size: 48px;
+  margin: 0;
+  font-weight: bold;
+}
+
+header h2 {
+  font-size: 20px;
+  font-weight: normal;
+  color: #ccc;
+  margin-top: 10px;
+}
+
+.glimpse {
+  background-color: #007acc;
+  color: white;
+  padding: 40px 30px;
+}
+
+.glimpse h3 {
+  font-size: 20px;
+  margin-bottom: 30px;
+  letter-spacing: 1px;
+}
+
+.info-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  row-gap: 20px;
+}
+
+.info-box h4 {
+  font-size: 14px;
+  margin: 0;
+  font-weight: bold;
+  color: #e8ecef71;
+}
+
+.info-box p {
+  margin: 5px 0 0 0;
+  font-size: 16px;
+}
+
+.about {
+  padding: 40px 30px;
+}
+
+.about h3 {
+  font-size: 20px;
+  color: #00b4cc;
+  margin-bottom: 20px;
+}
+
+.about p {
+  font-size: 16px;
+  line-height: 1.6;
+  color: #333333;
+}
+
+.about blockquote {
+  margin-top: 30px;
+  font-size: 22px;
+  font-weight: bold;
+  color: #0092cc;
+  background-color: #e6f3fb;
+  padding: 20px;
+  border-left: 6px solid #009ccc;
+}
